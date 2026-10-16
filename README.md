@@ -1,6 +1,6 @@
 # Melo News and Radio backend
 
-Public publisher-feed collection using Scrapling, independent native English/Arabic neural bulletins, and optional bounded EmbeddingGemma topic advice. News facts remain exact publisher headlines with original dates and attribution. No station deployment keys are needed.
+Public publisher-feed collection using Scrapling, independent native English/Arabic neural bulletins, and optional bounded EmbeddingGemma topic advice. Up to20 news items per language use exact publisher headlines or brief source-provided reporting details, with original dates and attribution preserved in metadata. Spoken breaks omit date/link/reference footers. No station deployment keys are needed.
 
 Python 3.11. Build: `python -m zipfile -e melo-news-source.zip . && pip install -r melo_news/requirements.txt && python -m melo_news.bootstrap_models`
 
