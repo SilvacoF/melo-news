@@ -6,7 +6,9 @@ Python 3.11. Build: `python -m zipfile -e melo-news-source.zip . && pip install 
 
 Start: `python -m melo_news.api --port $PORT`
 
-Endpoints: `/health`, `/news.json?language=en|ar`, `/radio/status`, `/radio-program.json?language=en|ar`, `/radio/audio/<sha256>.mp3`.
+Endpoints: `/health`, `/news.json?language=en|ar`, `/radio/status`, `/radio-program.json?language=en|ar`, `/radio/podcasts.json?language=en|ar`, `/radio/audio/<sha256>.mp3`.
+
+Short bilingual podcasts are curated about every ten minutes while awake from four native publisher reports and optional advisory topic tags. Exact reporting and reviewed host lines are narrated with free native voices; no model writes facts. Each episode is scheduled initially and twice more at +60 and +150 minutes, with a three-hour expiry. Both hashed recordings activate together. Sleep and ephemeral restarts can delay creation or lose episodes; missed intervals are not backfilled.
 
 Both native audio editions activate together only after full MP3 decoding. Reviewed entertainment ships with the source. Six joke breaks rotate at most every six hours; original fictional stories stay fixed until reviewed replacements. Publisher-only good/offbeat labels are preserved. Model downloads are pinned by revision and SHA256; model workers terminate before speech synthesis. LiquidAI failed the small quality evaluation and is not used; MiniCPM is too large for the selected free instance; Bonsai is deferred.
 
