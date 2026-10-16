@@ -2,6 +2,8 @@
 
 Public publisher-feed collection using Scrapling, independent native English/Arabic neural bulletins, and optional bounded EmbeddingGemma topic advice. Up to20 news items per language use exact publisher headlines or brief source-provided reporting details, with original dates and attribution preserved in metadata. Spoken breaks omit date/link/reference footers. No station deployment keys are needed.
 
+New speech includes the exact headline plus one short complete publisher detail where available, retaining qualifications and source evidence. Missing or unsafe details remain headline-only; the model never invents them.
+
 Python 3.11. Build: `python -m zipfile -e melo-news-source.zip . && pip install -r melo_news/requirements.txt && python -m melo_news.bootstrap_models`
 
 Start: `python -m melo_news.api --port $PORT`
