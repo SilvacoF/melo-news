@@ -27,3 +27,5 @@ queue. No model generates facts or arguments; EmbeddingGemma stays advisory.
 Both native audio editions activate together only after full MP3 decoding. Reviewed entertainment ships with the source. Six joke breaks rotate at most every six hours; original fictional stories stay fixed until reviewed replacements. Publisher-only good/offbeat labels are preserved. Model downloads are pinned by revision and SHA256; model workers terminate before speech synthesis. LiquidAI failed the small quality evaluation and is not used; MiniCPM is too large for the selected free instance; Bonsai is deferred.
 
 Free Render hosting sleeps after inactivity and has ephemeral generated caches. Requests wake it; the station keeps its dated published fallback while a cold host prepares fresh news and audio. This is not a promise of uninterrupted CPU execution.
+
+Spoken news refreshes on a ten-minute start cadence while awake. Cold starts activate a complete eight-report native bilingual pair before expanding to twenty; failures retain the playable pair. The existing station keeps a hash-verified native audio reserve during free-host sleep.
